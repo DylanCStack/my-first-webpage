@@ -22,3 +22,35 @@ p {
   font-size: 20px;
   line-height: 25px;
 }
+
+.button {
+  background-color:grey;
+  border:2px solid black;
+}
+
+#black-button {
+  cursor:pointer;
+  font-weight:bolder;
+  color:black;
+}
+#black-button:hover {
+  text-decoration: underline;
+}
+
+#white-button {
+  cursor:pointer;
+  color:white;
+}
+#white-button:hover {
+  text-decoration: underline;
+}
+
+.bg-black {
+  background-color: black;
+  color:white;
+}
+
+.bg-white {
+  background-color: white;
+  color:black;
+}
